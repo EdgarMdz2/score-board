@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <title>Scores-Board</title>
+</head>
+
+    <body>
+        <section class="board">
+            <h1>score-board</h1>
+
+            <div class="caja-teams">
+
+                <div class="team">
+                    <h2 id="team1" class="team-name"></h2>
+
+                    <div class="caja-pantalla">
+
+                        <div class="caja-puntuacion">
+                            <p id="score1" class="puntuacion"></p>
+                        </div>
+
+                        <div class="caja-botones">
+                            <button id="btnTouch1" class="touch">touchdown</button>
+                            
+                            <div id="botonesConver1" class="caja-conversion">
+                                <button id="btnFailed1" class="failed">failed</button>
+                                
+                                <div class="caja-success">
+                                    <button id="btn1Xp1">+1</button>
+                                    <button id="btn2Xp1">+2</button>
+                                </div>
+                            </div>
+
+                            <button id="btnSafety1" class="safety">safety</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team">
+                    <h2 id="team2" class="team-name"></h2>
+
+                    <div class="caja-pantalla">
+
+                        <div class="caja-puntuacion">
+                            <p id="score2" class="puntuacion"></p>
+                        </div>
+
+                        <div class="caja-botones">
+                            <button id="btnTouch2" class="touch">touchdown</button>
+                            
+                            <div id="botonesConver2" class="caja-conversion">
+                                <button id="btnFailed2" class="failed">failed</button>
+
+                                <div class="caja-success">
+                                    <button id="btn1Xp2">+1</button>
+                                    <button id="btn2Xp2">+2</button>
+                                </div>
+                            </div>
+
+                            <button id="btnSafety2" class="safety">safety</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="botones-control">
+                <button id="btnReset">reset</button>
+                <!-- <button id="btnUndo">undo</button> -->
+            </div>
+            
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
