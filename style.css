@@ -148,4 +148,8 @@ button:hover {
     .touch {
         letter-spacing: 2px;
     }
+
+    .btnReset {
+        letter-spacing: 2px;
+    }
 }
