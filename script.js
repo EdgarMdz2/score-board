@@ -51,7 +51,7 @@ function mostrarBotonesScore2() {
 
 condicionesIniciales();
 
-//BOTONES
+//BOTONES.
 btnTouchdown1.addEventListener('click', () => {
     score1.textContent = parseInt(score1.textContent) + 6;
     mostrarBotonesConver1();
